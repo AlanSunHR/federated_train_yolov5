@@ -1,4 +1,4 @@
-# Evaluation-of-Federated-Training-Object-Detection-Neural-Networks
+# Evaluation of Federated Training Object Detection Neural Networks
 
 ## Pre-requests
 1. Git clone the repository
