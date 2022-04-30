@@ -16,7 +16,7 @@ from centralized_train import parse_opt
 DATASET_PREFIX = "even_subdataset_"
 TRAIN_FOLDER = os.path.join(ROOT_DIR, "training", "federated_even_distributed")
 CLIENT_NUM = 5
-ROUNDS = 2
+ROUNDS = 300
 AGGRE_FOLDER = os.path.join(TRAIN_FOLDER, "aggregated")
 
 def getLastAggModel():
