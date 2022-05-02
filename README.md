@@ -30,7 +30,7 @@ python3 centralized_training.py
 1. Run the centralized training script before runing federated training.
 2. Split the dataset into several sub-datasets
 ```bash
-python3 split_data.py
+python3 split_voc2007.py
 ```
 3. Run the federated training on evenly distributed datasets:
 ```bash
@@ -40,3 +40,4 @@ python3 federated_train_even.py
 ```bash
 python3 federated_train_noniid.py
 ```
+### Note: to modify the training options (batch-size, epoch number, please refer to the instruction: https://github.com/ultralytics/yolov5.git)
